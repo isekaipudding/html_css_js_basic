@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <style>
+    /* 같은 태그의 css 코드가 2개 이상이고 중첩된 속성이 없는 경우 동시에 적용됩니다. */
+    /* 하지만 만약 중첩된 속성이 존재하는 경우 마지막에 입력된 명령이 실행됩니다. */
+    /* p 태그의 style에서 border-color 속성은 blue, violet, pink 중 가장 마지막은 pink입니다. */
+    /* p 태그의 style에서 color 속성은 red, green 중 가장 마지막은 green입니다. */
+    p{border: solid; border-color: blue;}
+    p{color: red;}
+    p{color:green; border-color: violet;}
+    p{border-color: pink;}
+  </style>
+  <p>
+    어떤 결과가 나올까요?
+  </p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <style>
+    /* 아이디 선택자(#), 클래스 선택자(.), 태그 선택자 3개 동시에 적용되는 경우 */
+    /*
+      속성은 다음과 같은 우선순위로 적용됩니다.
+      1순위 : 아이디 선택자(#)
+      2순위 : 클래스 선택자(.)
+      3순위 : 태그 선택자
+    */
+    /* 여기서는 color 속성 기준으로 #myID(red)가 적용되고, border-color 속성 기준으로 .myClass(violet)가 적용됩니다. */
+    p{color: yellow; border: solid; border-color: blue;}
+    #myID{color: red;}
+    .myClass{color: green; border-color: violet;}
+  </style>
+  <p class="myClass" id="myID">
+    어떤 결과가 나올까요?
+  </p>
+</body>
+</html>
