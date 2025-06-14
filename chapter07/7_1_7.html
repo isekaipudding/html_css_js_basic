@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+  <!-- 7_1_7.html : 외부 css 파일을 사용하기 위해 link 태그를 활용하여 import 합니다. -->
+  <!-- 이러면 웹페이지 구주 개발과 웹디자인을 따로 분리할 수 있습니다. -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- 외부 css 파일을 사용하기 위해 내부에 있던 css 코드(style 태그)는 모두 삭제합니다. -->
+  <!-- div 태그를 추가합니다. 원래 교재에서 id는 나중에 나오나 구분을 쉽게 하기 위해 제가 임의로 추가합니다. -->
+  <div id="wrapper">
+    <div id="header">
+      <!-- img 태그를 이용해 인스타그램 로고 추가 -->
+      <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="instagram"/>
+      <!-- 6_1_5.html : input 태그에 type 속성 추가 -->
+      <input type="search" value="검색"/>
+    </div>
+    <!-- 7_1_2.html : div 태그에는 class 말고도 id도 가능합니다. -->
+    <!-- id : 고유값을 의미하며 중복값을 허용하지 않습니다. class : 객체명을 의미하며 중복값을 허용합니다. -->
+    <div id="profile">
+      <!-- 귀여운 고양이 사진 추가 -->
+      <img src="../image/profile.jpg" alt="고냥이" width="50px"/>
+      <div id="profile_detail">
+        <!-- h2 태그 추가 -->
+        <h2>i_have_no_instagram_account</h2>
+        <!-- button 태그 추가 -->
+        <button>프로필 편집</button>
+      </div>
+    </div>
+    <div id="introduce">
+      <p>
+        <strong>홍길동(Hong Gil Dong)</strong><br/>
+        개발자 꿈나무
+      </p>
+      <p>isekaipudding.github.io</p>
+    </div>
+    <div id="highlight">
+      <!-- 하이라이트 자리에 고양이 이미지 2장 추가 -->
+      <!-- 7_1_1.html : div class = highlight로 수정 -->
+      <div class="highlight">
+        <div id="cat_image1">
+          <img src="../image/hl 1.jpg" alt="위를 보고 있는 고냥이" height="35px"/>
+        </div>
+        <div id="cat_emoticon1">😎</div>
+      </div>
+      <div class="highlight">
+        <div id="cat_image2">
+          <img src="../image/hl 2.jpg" alt="꽃밭 속에 있는 고냥이" height="35px"/>
+        </div>
+        <div id="cat_emoticon2">🥰</div>
+      </div>
+    </div>
+    <div id="status">      
+      <div id="post_list">
+        게시물<br/>
+        13
+      </div>
+      <div id="follower">
+        팔로워<br/>
+        10
+      </div>
+      <div id="follow">
+        팔로우<br/>
+        19
+      </div>
+    </div>
+    <div id="icon">아이콘이 들어갈 자리</div>
+    <div id="thumbnail">
+      <img src="../image/1.jpg" alt="썸네일1" width="32%" />
+      <img src="../image/2.jpg" alt="썸네일2" width="32%" />
+      <img src="../image/3.jpg" alt="썸네일3" width="32%" />
+      <img src="../image/4.jpg" alt="썸네일4" width="32%" />
+      <img src="../image/5.jpg" alt="썸네일5" width="32%" />
+      <img src="../image/6.jpg" alt="썸네일6" width="32%" />
+      <img src="../image/7.jpg" alt="썸네일7" width="32%" />
+      <img src="../image/8.jpg" alt="썸네일8" width="32%" />
+      <img src="../image/9.jpg" alt="썸네일9" width="32%" />
+    </div>
+    <div id="footer">
+      <!-- a 태그를 추가해서 하이퍼링크로 원하는 주소를 지정합니다. -->
+      <p>html 공부하는데 도움이 되었던 자료(깃허브 주소) : 
+        <a href="https://needleworm.github.io">needleworm.github.io</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
