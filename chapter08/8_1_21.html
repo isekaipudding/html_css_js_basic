@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <style>
+    /*
+      border-width는 border 선 두께를 의미하고 상하좌우로 지정할 수 있습니다.
+    */
+    #first{
+      border: solid;
+      border-top-width: 1px;
+      border-left-width: 2px;
+      border-right-width: 10px;
+      border-bottom-width: 4px;
+    }
+    /*
+      혹은 이렇게 해도 동일한 기능을 가집니다.
+    */
+    #second{
+      border-top: solid 1px;
+      border-left: solid 2px;
+      border-right: solid 10px;
+      border-bottom: solid 4px;
+    }
+  </style>
+  <p id="first">1px</p>
+  <p id="second">3px</p>
+</body>
+</html>

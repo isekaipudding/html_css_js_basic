@@ -7,14 +7,19 @@
 </head>
 <body>
   <style>
-    /* auto는 비율을 최대한 유지할 수 있도록 브라우저가 크기를 자동으로 설정됩니다.
-       여기서는 이미지 원본 높이로 설정됩니다.
+    /*
+      border-width는 border 선 두께를 의미합니다.
     */
-    img{
-      width: 300px;
-      height: auto;
+    #first{
+      border: solid;
+      border-width: 1px;
+    }
+    #second{
+      border: solid;
+      border-width: 3px;
     }
   </style>
-  <img src="../image/profile.jpg"/>
+  <p id="first">1px</p>
+  <p id="second">3px</p>
 </body>
 </html>
