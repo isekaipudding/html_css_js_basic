@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <style>
+    /*
+      rows와 cols를 동시에 사용하면 2차원 격자 그래프를 구현할 수 있습니다.
+     */
+    .myGrid{
+      display: grid;
+      grid-template-rows: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+    }
+    #first{background-color: yellow;}
+    #second{background-color: green;}
+    #third{background-color: blue;}
+    #fourth{background-color: purple;}
+  </style>
+  <div class="myGrid">
+    <div id="first">1번 영역</div>
+    <div id="second">2번 영역</div>
+    <div id="third">3번 영역</div>
+    <div id="fourth">4번 영역</div>
+  </div>
+</body>
+</html>

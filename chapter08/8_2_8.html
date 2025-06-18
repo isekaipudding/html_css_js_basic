@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <style>
+    /*
+      만약 여기서 div 태그를 제거하면 어떻게 될까요?
+      grid가 적용되지 않는 것을 볼 수 있습니다.
+      grig는 요소(element) 기준으로 하고, 하나의 element는 하나의 tag로 이루어져 있으므로
+      tag가 없으면 grid는 적용되지 않습니다.
+     */
+    .myGrid{
+      display: grid;
+      grid-template-rows: 1fr 3fr;
+    }
+    #first{background-color: yellow;}
+    #second{background-color: green;}
+  </style>
+  <div class="myGrid">
+    1번 영역
+    2번 영역
+  </div>
+</body>
+</html>
