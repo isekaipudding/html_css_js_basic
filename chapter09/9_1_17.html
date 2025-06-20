@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>instagram</title>
-  <!-- 9_1_3.css를 추가합니다. -->
-  <link href="../css/9_1_03.css" rel="stylesheet">
+  <!-- 9_1_18.css를 추가합니다. -->
+  <link href="../css/9_1_18.css" rel="stylesheet">
 </head>
 <body>
   <!-- 자세한 주석은 9_1_1.html을 확인해주세요.
@@ -17,8 +17,11 @@
       <input type="search" value="검색"/>
     </div>
     <div id="profile">
-      <img src="../image/profile.jpg" alt="고냥이" width="50px"/>
-      <div id="profile_detail">
+      <div id="profile_pic">
+        <img class="circle_pic" src="../image/profile.jpg" alt="고냥이" width="50px"/>
+      </div>
+      <!-- id="profile_info"로 수정합니다. -->
+      <div id="profile_info">
         <h2>i_have_no_instagram_account</h2>
         <button>프로필 편집</button>
       </div>
@@ -30,37 +33,37 @@
       </p>
       <a href="https://github.com/isekaipudding">isekaipudding_github</a>
     </div>
-    <div id="highlight">
+    <div id="highlight_area">
       <div class="highlight">
-        <div id="cat_image1">
-          <img src="../image/hl 1.jpg" alt="위를 보고 있는 고냥이" height="35px"/>
+        <div class="highlight_pic">
+          <img class="circle_pic" src="../image/hl 1.jpg" alt="위를 보고 있는 고냥이" height="35px"/>
         </div>
         <div id="cat_emoticon1">😎</div>
       </div>
       <div class="highlight">
-        <div id="cat_image2">
-          <img src="../image/hl 2.jpg" alt="꽃밭 속에 있는 고냥이" height="35px"/>
+        <div class="highlight_pic">
+          <img class="circle_pic" src="../image/hl 2.jpg" alt="꽃밭 속에 있는 고냥이" height="35px"/>
         </div>
         <div id="cat_emoticon2">🥰</div>
       </div>
+      <div></div>
     </div>
-    <div id="status">      
-      <div id="post_list">
+    <div id="stat_bar">
+      <div class="stat">
         게시물<br/>
         13
       </div>
-      <div id="follower">
+      <div class="stat">
         팔로워<br/>
         10
       </div>
-      <div id="follow">
+      <div class="stat">
         팔로우<br/>
         19
       </div>
     </div>
     <div id="icon">아이콘이 들어갈 자리</div>
     <div id="thumbnail">
-      <!-- 9_1_3.css 적용하기 위해 썸네일 태그 9개를 수정합니다. -->
       <div class="thumbnail_grid">
         <img src="../image/1.jpg" class="thumbnail" alt="썸네일1"/>
         <img src="../image/2.jpg" class="thumbnail" alt="썸네일2"/>
