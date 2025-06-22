@@ -1,0 +1,1 @@
+console.log("abcdefgh".slice(3, 5)); // index 3부터 index 5 직전까지의 문자열을 추출합니다.
