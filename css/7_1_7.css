@@ -1,0 +1,15 @@
+/* 외부 css 파일로 분리합니다. */
+
+/* 7_1_3.html : 해당 태그에 css 스타일을 적용할 수 있습니다. 여기서는 글자색(color)을 파란색(blue)으로 설정합니다. */
+h2{
+  color: blue;
+}
+/* class highlight의 css 스타일을 적용합니다. 여기서는 두께(border)를 실선(solid)로 설정합니다. */
+.highlight{
+  border: solid;
+}
+/* id profile의 css 스타일을 적용합니다. 여기서는 두께(border)를 실선(solid)로 하고 색깔(border-color)는 파란색(blue)입니다. */
+#profile{
+  border: solid;
+  border-color: blue;
+}
