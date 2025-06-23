@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <!-- 만약 외부 js 파일을 body 태그의 맨 위 혹은 head 태그 내에 배치하면 어떻게 될가요?
+       그러면 콘솔창에 
+       Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+       라는 오류 문구가 뜹니다.
+       그러므로 되도록 script 태그는 body 태그 맨 밑에 배치하는 것을 권장합니다. -->
+  <script src="../js/12_3_2.js"></script>
+  <input/>
+  <p onclick="hi();">click here</p>
+</body>
+</html>

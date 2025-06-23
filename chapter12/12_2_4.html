@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko"> <!-- 한국어로 변경합니다. -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>instagram</title>
+</head>
+<body>
+  <script>
+    function red() {
+      // 여기서부터 중요합니다. document(HTML로 작성된 문서 그 자체인 객체)는 정말 필수적으로 자주 나오는 키워드입니다.
+      // querySelector는 document라는 객체에 포함된 기능으로 그 선택자(tag)에 해당하는 요소(element)를 추출합니다.
+      let button = document.querySelector("input");
+      button.style.backgroundColor = "red";
+    }
+  </script>
+  <input type="button" value="버튼" onclick="red();"/>
+</body>
+</html>
